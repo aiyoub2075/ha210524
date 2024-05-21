@@ -17,7 +17,7 @@ const currentDate = new Date().toLocaleDateString();
 const App = () => (
   <div>
     <h1 className="kopftext">Aiyoub Hausaufgabe 21.May</h1>
-    <p className="paragraf">bla bla bla bla bla bla bla bla</p>
+    <p className="paragraf">Hallo Sara, Hallo Hubertous!</p>
     
     <h3 style={{ color: 'black', fontSize: '50px' }}>
       Addieren von 10 und 20 = {add(10, 20)}
