@@ -2,16 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-// Funktion zur Addition zweier Zahlen
+
 const add = (a, b) => a + b;
 
-// Funktion zur Berechnung der Quadratwurzel einer Zahl
 const sqrt = (x) => Math.sqrt(x);
 
-// Generiere eine zufällige Zahl zwischen 1 und 100
 const randomNumber = Math.floor(Math.random() * 100) + 1;
 
-// Hole das aktuelle Datum
 const currentDate = new Date().toLocaleDateString();
 
 const App = () => (
