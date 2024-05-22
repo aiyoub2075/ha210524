@@ -12,7 +12,7 @@ const randomNumber = Math.floor(Math.random() * 100) + 1;
 const currentDate = new Date().toLocaleDateString();
 
 const App = () => (
-  <div>
+  <>
     <h1 className="kopftext">Aiyoub Hausaufgabe 21.May</h1>
     <p className="paragraf">Hallo Sara, Hallo Hubertous!</p>
     
@@ -31,7 +31,7 @@ const App = () => (
     <p style={{ color: 'green', fontSize: '20px' }}>
       Aktuelles Datum: {currentDate}
     </p>
-  </div>
+  </>
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));
